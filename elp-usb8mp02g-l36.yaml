@@ -1,0 +1,20 @@
+image_width: 640
+image_height: 480
+camera_name: elp-usb8mp02g-l36
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [670.3274841104079, 0, 189.340242714521, 0, 653.114499556876, 213.7588997203413, 0, 0, 1]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.07756600707592337, 0.06372421534012987, -0.007400792920908819, -0.03474638137442911, 0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [627.31591796875, 0, 171.260724159627, 0, 0, 655.3377685546875, 211.1021159906704, 0, 0, 0, 1, 0]
